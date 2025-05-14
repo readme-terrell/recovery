@@ -13,14 +13,18 @@ metadata:
 next:
   description: ''
 ---
-> 💻 [block:html]{"html":"<h3  style=\"text-align:center;\">DOWNLOAD PROJECT</h3>\n<ul>\n  <li><a href=\"https://we.tl/t-Rn1fLb7De5\">Java</li>\n  <li><a href=\"https://we.tl/t-IzIyzBXPgd\">Python</li>\n  <li><a href=\"https://we.tl/t-NJGCT18utw\">C#</li>\n</ul>"}[/block]
+> 💻 <HTMLBlock>{`
+> <h3 style={{ textAlign: "center" }}>DOWNLOAD PROJECT</h3>
+> <ul>
+>   <li><a href="https://we.tl/t-Rn1fLb7De5">Java</a></li>
+>   <li><a href="https://we.tl/t-IzIyzBXPgd">Python</a></li>
+>   <li><a href="https://we.tl/t-NJGCT18utw">C#</a></li>
+> </ul>
+> `}</HTMLBlock>
 
-[block:html]
-{
-  "html": "<a href=\"https://www.bizapis.com/wp-content/uploads/2024/08/servico_autoridade_tributaria_alerts.mp4.mp4\" target=\"_blank\">To watch the video click here"
-}
-[/block]
-
+<HTMLBlock>{`
+<a href="https://www.bizapis.com/wp-content/uploads/2024/08/servico_autoridade_tributaria_alerts.mp4.mp4" target="_blank">To watch the video click here</a>
+`}</HTMLBlock>
 
 # JSON Schema API Response
 
@@ -87,5 +91,4 @@ next:
     }
   }
 }
-
 ```
