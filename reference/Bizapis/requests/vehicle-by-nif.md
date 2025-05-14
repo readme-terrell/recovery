@@ -15,14 +15,18 @@ metadata:
 next:
   description: ''
 ---
-> 💻 [block:html]{"html":"<h3  style=\"text-align:center;\">DOWNLOAD PROJECT</h3>\n<ul>\n  <li><a href=\"https://we.tl/t-362cCpxLXw\" target=\"_blank\">Java</li>\n  <li><a href=\"https://we.tl/t-Su796XuSgQ\">Python</li>\n  <li><a href=\"https://we.tl/t-nZotH0R6Vx\">C#</li>\n</ul>"}[/block]
+> 💻 <HTMLBlock>{`
+> <h3 style={{ textAlign: "center" }}>DOWNLOAD PROJECT</h3>
+> <ul>
+>   <li><a href="https://we.tl/t-362cCpxLXw" target="_blank">Java</a></li>
+>   <li><a href="https://we.tl/t-Su796XuSgQ">Python</a></li>
+>   <li><a href="https://we.tl/t-nZotH0R6Vx">C#</a></li>
+> </ul>
+> `}</HTMLBlock>
 
-[block:html]
-{
-  "html": "<a href=\"https://www.bizapis.com/wp-content/uploads/2024/08/servico_vehicles_by_nif.mp4.mp4\" target=\"_blank\">To watch the video click here"
-}
-[/block]
-
+<HTMLBlock>{`
+<a href="https://www.bizapis.com/wp-content/uploads/2024/08/servico_vehicles_by_nif.mp4.mp4" target="_blank">To watch the video click here</a>
+`}</HTMLBlock>
 
 # JSON Schema API Response
 
@@ -119,7 +123,7 @@ next:
       "description" : "Indicação se o motor do veículo é do tipo Wankel."  
     }  
   }  
-}`
+}
 ```
 ```json ENG
 {
@@ -215,5 +219,4 @@ next:
     }
   }
 }
-
 ```
