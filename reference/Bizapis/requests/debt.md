@@ -17,14 +17,18 @@ metadata:
 next:
   description: ''
 ---
-> 💻 [block:html]{"html":"<h3  style=\"text-align:center;\">DOWNLOAD PROJECT</h3>\n<ul>\n  <li><a href=\"https://we.tl/t-LoKh0HSmDx\">Java</li>\n  <li><a href=\"https://we.tl/t-flFrxOTJLK\">Python</li>\n  <li><a href=\"https://we.tl/t-amS0lzmLaL\">C#</li>\n</ul>"}[/block]
+> 💻 <HTMLBlock>{`
+> <h3 style={{ textAlign: "center" }}>DOWNLOAD PROJECT</h3>
+> <ul>
+>   <li><a href="https://we.tl/t-LoKh0HSmDx">Java</a></li>
+>   <li><a href="https://we.tl/t-flFrxOTJLK">Python</a></li>
+>   <li><a href="https://we.tl/t-amS0lzmLaL">C#</a></li>
+> </ul>
+> `}</HTMLBlock>
 
-[block:html]
-{
-  "html": "<a href=\"https://www.bizapis.com/wp-content/uploads/2024/08/servico_debt.mp4.mp4\" target=\"_blank\">To watch the video click here"
-}
-[/block]
-
+<HTMLBlock>{`
+<a href="https://www.bizapis.com/wp-content/uploads/2024/08/servico_debt.mp4.mp4" target="_blank">To watch the video click here</a>
+`}</HTMLBlock>
 
 # JSON Schema API Response
 
@@ -89,5 +93,4 @@ next:
     }
   }
 }
-
 ```
