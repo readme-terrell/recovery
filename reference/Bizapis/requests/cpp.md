@@ -16,16 +16,24 @@ metadata:
 next:
   description: ''
 ---
-> 💻 
-> 
-> [block:html]{"html":"<h3  style=\"text-align:center;\">DOWNLOAD PROJECT</h3>\n<ul>\n  <li><a href=\"https://we.tl/t-nXjAbUKfYI\">Java</li>\n  <li><a href=\"https://we.tl/t-WMm2XLQG3z\">Python</li>\n  <li><a href=\"https://we.tl/t-4tmj2arQgi\">C#</li>\n</ul>\n<!--\n<a href=\"https://drive.google.com/uc?id=1MbJ3sWyhG8SqBhNYnmWcD9tcLvWGd2UK&export=download\">\n  <button>Download project demo</button>\n</a> -->"}[/block]
+> 💻
+>
+> <HTMLBlock>{`
+> <h3  style="text-align:center;">DOWNLOAD PROJECT</h3>
+> <ul>
+>   <li><a href="https://we.tl/t-nXjAbUKfYI">Java</li>
+>   <li><a href="https://we.tl/t-WMm2XLQG3z">Python</li>
+>   <li><a href="https://we.tl/t-4tmj2arQgi">C#</li>
+> </ul>
+> <!--
+> <a href="https://drive.google.com/uc?id=1MbJ3sWyhG8SqBhNYnmWcD9tcLvWGd2UK&export=download">
+>   <button>Download project demo</button>
+> </a> -->
+> `}</HTMLBlock>
 
-[block:html]
-{
-  "html": "<a href=\"https://www.bizapis.com/wp-content/uploads/2024/08/servico_certidao_permanente_predial.mp4.mp4\" target=\"_blank\">To watch the video click here"
-}
-[/block]
-
+<HTMLBlock>{`
+<a href="https://www.bizapis.com/wp-content/uploads/2024/08/servico_certidao_permanente_predial.mp4.mp4" target="_blank">To watch the video click here
+`}</HTMLBlock>
 
 # JSON Schema API Response
 
