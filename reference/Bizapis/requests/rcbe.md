@@ -16,7 +16,14 @@ metadata:
 next:
   description: ''
 ---
-> 💻 [block:html]{"html":"<h3  style=\"text-align:center;\">DOWNLOAD PROJECT</h3>\n<ul>\n  <li><a href=\"https://we.tl/t-SrT6D63DQy\">Java</li>\n  <li><a href=\"https://we.tl/t-sNKn0t88Ix\">Python</li>\n  <li><a href=\"https://we.tl/t-i5pJvRhWo5\">C#</li>\n</ul>"}[/block]
+> 💻 <HTMLBlock>{`
+> <h3  style="text-align:center;">DOWNLOAD PROJECT</h3>
+> <ul>
+>   <li><a href="https://we.tl/t-SrT6D63DQy">Java</li>
+>   <li><a href="https://we.tl/t-sNKn0t88Ix">Python</li>
+>   <li><a href="https://we.tl/t-i5pJvRhWo5">C#</li>
+> </ul>
+> `}</HTMLBlock>
 
 ## Timeout after 30 seconds
 
@@ -30,12 +37,9 @@ In case this service doesn't present a response during the period of 30 seconds,
 
 This value can be used as the path parameter (requestId) in this [endpoint ](https://bizapis.readme.io/reference/retrieve-persistent-data) in order to retrieve the stored data.
 
-[block:html]
-{
-  "html": "<a href=\"https://www.bizapis.com/wp-content/uploads/2024/08/Servico_RCBE.mp4.mp4\" target=\"_blank\">To watch the video click here"
-}
-[/block]
-
+<HTMLBlock>{`
+<a href="https://www.bizapis.com/wp-content/uploads/2024/08/Servico_RCBE.mp4.mp4" target="_blank">To watch the video click here
+`}</HTMLBlock>
 
 # JSON Schema API Response
 
