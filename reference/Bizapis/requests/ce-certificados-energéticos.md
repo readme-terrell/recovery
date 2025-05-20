@@ -15,25 +15,29 @@ metadata:
 next:
   description: ''
 ---
-> 💻 <HTMLBlock>{`
-> <h3 style={{ textAlign: "center" }}>DOWNLOAD PROJECT</h3>
-> <ul>
->   <li><a href="https://we.tl/t-bIZoRJjUhC">Java</a></li>
->   <li><a href="https://we.tl/t-DSxaFgrUeE">Python</a></li>
->   <li><a href="https://we.tl/t-uz0C3JLPXM">C#</a></li>
-> </ul>
-> {/* <a href="https://drive.google.com/uc?id=1MbJ3sWyhG8SqBhNYnmWcD9tcLvWGd2UK&export=download">
->   <button>Download project demo</button>
-> </a> */}
-> `}</HTMLBlock>
+# Download Project
 
-<HTMLBlock>{`
-<a href="https://www.bizapis.com/wp-content/uploads/2024/08/servico_certificados_energeticos.mp4.mp4" target="_blank">To watch the video click here</a>
-`}</HTMLBlock>
+<div style={{ textAlign: "center" }}>
+  <h3>DOWNLOAD PROJECT</h3>
+</div>
+
+- [Java](https://we.tl/t-bIZoRJjUhC)
+- [Python](https://we.tl/t-DSxaFgrUeE)
+- [C#](https://we.tl/t-uz0C3JLPXM)
+
+{/* <a href="https://drive.google.com/uc?id=1MbJ3sWyhG8SqBhNYnmWcD9tcLvWGd2UK&export=download">
+  <button>Download project demo</button>
+</a> */}
+
+<a href="https://www.bizapis.com/wp-content/uploads/2024/08/servico_certificados_energeticos.mp4.mp4" target="_blank">
+  To watch the video click here
+</a>
 
 # JSON Schema API Response
 
-```json PT
+## Portuguese
+
+```json
 {
   "type" : "object",
   "properties" : {
@@ -124,7 +128,10 @@ next:
   }
 }
 ```
-```json ENG
+
+## English
+
+```json
 {
   "type": "object",
   "properties": {
