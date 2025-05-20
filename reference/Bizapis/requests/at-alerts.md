@@ -13,22 +13,25 @@ metadata:
 next:
   description: ''
 ---
-> 💻 <HTMLBlock>{`
-> <h3 style={{ textAlign: "center" }}>DOWNLOAD PROJECT</h3>
-> <ul>
->   <li><a href="https://we.tl/t-Rn1fLb7De5">Java</a></li>
->   <li><a href="https://we.tl/t-IzIyzBXPgd">Python</a></li>
->   <li><a href="https://we.tl/t-NJGCT18utw">C#</a></li>
-> </ul>
-> `}</HTMLBlock>
+# Download Project
 
-<HTMLBlock>{`
-<a href="https://www.bizapis.com/wp-content/uploads/2024/08/servico_autoridade_tributaria_alerts.mp4.mp4" target="_blank">To watch the video click here</a>
-`}</HTMLBlock>
+<div style={{ textAlign: "center" }}>
+  <h3>DOWNLOAD PROJECT</h3>
+</div>
+
+- [Java](https://we.tl/t-Rn1fLb7De5)
+- [Python](https://we.tl/t-IzIyzBXPgd)
+- [C#](https://we.tl/t-NJGCT18utw)
+
+<a href="https://www.bizapis.com/wp-content/uploads/2024/08/servico_autoridade_tributaria_alerts.mp4.mp4" target="_blank">
+  To watch the video click here
+</a>
 
 # JSON Schema API Response
 
-```json PT
+## Portuguese
+
+```json
 {
   "type" : "object",
   "properties" : {
@@ -60,7 +63,10 @@ next:
   }
 }
 ```
-```json ENG
+
+## English
+
+```json
 {
   "type": "object",
   "properties": {
