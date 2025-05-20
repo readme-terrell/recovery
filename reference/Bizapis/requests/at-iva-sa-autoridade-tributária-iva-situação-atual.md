@@ -15,22 +15,25 @@ metadata:
 next:
   description: ''
 ---
-> 💻 <HTMLBlock>{`
-> <h3 style={{ textAlign: "center" }}>DOWNLOAD PROJECT</h3>
-> <ul>
->   <li><a href="https://we.tl/t-7pBtGcvBI6">Java</a></li>
->   <li><a href="https://we.tl/t-4x2DgpxZW8">Python</a></li>
->   <li><a href="https://we.tl/t-pF7tBODm8W">C#</a></li>
-> </ul>
-> `}</HTMLBlock>
+# Download Project
 
-<HTMLBlock>{`
-<a href="https://www.bizapis.com/wp-content/uploads/2024/08/at-iva-sa.mp4.mp4" target="_blank">To watch the video click here</a>
-`}</HTMLBlock>
+<div style={{ textAlign: "center" }}>
+  <h3>DOWNLOAD PROJECT</h3>
+</div>
+
+- [Java](https://we.tl/t-7pBtGcvBI6)
+- [Python](https://we.tl/t-4x2DgpxZW8)
+- [C#](https://we.tl/t-pF7tBODm8W)
+
+<a href="https://www.bizapis.com/wp-content/uploads/2024/08/at-iva-sa.mp4.mp4" target="_blank">
+  To watch the video click here
+</a>
 
 # JSON Schema API Response
 
-```json PT
+## Portuguese
+
+```json
 {
   "type" : "object",
   "properties" : {
@@ -81,7 +84,10 @@ next:
   }
 }
 ```
-```json ENG
+
+## English
+
+```json
 {
   "type": "object",
   "properties": {
