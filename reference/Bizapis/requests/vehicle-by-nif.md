@@ -15,117 +15,117 @@ metadata:
 next:
   description: ''
 ---
-> 💻 <HTMLBlock>{`
-> <h3 style={{ textAlign: "center" }}>DOWNLOAD PROJECT</h3>
-> <ul>
->   <li><a href="https://we.tl/t-362cCpxLXw" target="_blank">Java</a></li>
->   <li><a href="https://we.tl/t-Su796XuSgQ">Python</a></li>
->   <li><a href="https://we.tl/t-nZotH0R6Vx">C#</a></li>
-> </ul>
-> `}</HTMLBlock>
+# Download Project
 
-<HTMLBlock>{`
-<a href="https://www.bizapis.com/wp-content/uploads/2024/08/servico_vehicles_by_nif.mp4.mp4" target="_blank">To watch the video click here</a>
-`}</HTMLBlock>
+- [Java](https://we.tl/t-362cCpxLXw)
+- [Python](https://we.tl/t-Su796XuSgQ)
+- [C#](https://we.tl/t-nZotH0R6Vx)
+
+[Watch the video](https://www.bizapis.com/wp-content/uploads/2024/08/servico_vehicles_by_nif.mp4.mp4)
 
 # JSON Schema API Response
 
-```json PT
+## Portuguese
+
+```json
 {  
-  "type" : "object",  
-  "properties" : {  
-    "requestId" : {  
-      "type" : "string",  
-      "description" : "Identificador único do pedido."  
+  "type": "object",  
+  "properties": {  
+    "requestId": {  
+      "type": "string",  
+      "description": "Identificador único do pedido."  
     },  
-    "nif" : {  
-      "type" : "string",  
-      "description" : "Número de Identificação Fiscal (NIF)."  
+    "nif": {  
+      "type": "string",  
+      "description": "Número de Identificação Fiscal (NIF)."  
     },  
-    "name" : {  
-      "type" : "string",  
-      "description" : "Nome do proprietário ou responsável pelo veículo."  
+    "name": {  
+      "type": "string",  
+      "description": "Nome do proprietário ou responsável pelo veículo."  
     },  
-    "licensePlate" : {  
-      "type" : "string",  
-      "description" : "Matrícula do veículo."  
+    "licensePlate": {  
+      "type": "string",  
+      "description": "Matrícula do veículo."  
     },  
-    "licensePlateIssueDate" : {  
-      "type" : "string",  
-      "description" : "Data de emissão da matrícula."  
+    "licensePlateIssueDate": {  
+      "type": "string",  
+      "description": "Data de emissão da matrícula."  
     },  
-    "firstRegistrationDate" : {  
-      "type" : "string",  
-      "description" : "Data da primeira matrícula do veículo."  
+    "firstRegistrationDate": {  
+      "type": "string",  
+      "description": "Data da primeira matrícula do veículo."  
     },  
-    "brand" : {  
-      "type" : "string",  
-      "description" : "Marca do veículo."  
+    "brand": {  
+      "type": "string",  
+      "description": "Marca do veículo."  
     },  
-    "model" : {  
-      "type" : "string",  
-      "description" : "Modelo do veículo."  
+    "model": {  
+      "type": "string",  
+      "description": "Modelo do veículo."  
     },  
-    "color" : {  
-      "type" : "string",  
-      "description" : "Cor do veículo."  
+    "color": {  
+      "type": "string",  
+      "description": "Cor do veículo."  
     },  
-    "category" : {  
-      "type" : "string",  
-      "description" : "Categoria do veículo, como definido pela autoridade competente."  
+    "category": {  
+      "type": "string",  
+      "description": "Categoria do veículo, como definido pela autoridade competente."  
     },  
-    "seatingCapacity" : {  
-      "type" : "string",  
-      "description" : "Capacidade de lotação do veículo (número de assentos)."  
+    "seatingCapacity": {  
+      "type": "string",  
+      "description": "Capacidade de lotação do veículo (número de assentos)."  
     },  
-    "vehicleType" : {  
-      "type" : "string",  
-      "description" : "Tipo de veículo."  
+    "vehicleType": {  
+      "type": "string",  
+      "description": "Tipo de veículo."  
     },  
-    "fuelType" : {  
-      "type" : "string",  
-      "description" : "Tipo de combustível utilizado pelo veículo."  
+    "fuelType": {  
+      "type": "string",  
+      "description": "Tipo de combustível utilizado pelo veículo."  
     },  
-    "squareNumber" : {  
-      "type" : "string",  
-      "description" : "Número do quadro do veículo."  
+    "squareNumber": {  
+      "type": "string",  
+      "description": "Número do quadro do veículo."  
     },  
-    "cylinderCapacity" : {  
-      "type" : "string",  
-      "description" : "Cilindrada do motor."  
+    "cylinderCapacity": {  
+      "type": "string",  
+      "description": "Cilindrada do motor."  
     },  
-    "power" : {  
-      "type" : "string",  
-      "description" : "Potência do motor."  
+    "power": {  
+      "type": "string",  
+      "description": "Potência do motor."  
     },  
-    "voltage" : {  
-      "type" : "string",  
-      "description" : "Voltagem do sistema elétrico do veículo."  
+    "voltage": {  
+      "type": "string",  
+      "description": "Voltagem do sistema elétrico do veículo."  
     },  
-    "grossWeight" : {  
-      "type" : "string",  
-      "description" : "Peso bruto do veículo."  
+    "grossWeight": {  
+      "type": "string",  
+      "description": "Peso bruto do veículo."  
     },  
-    "towableGrossWeight" : {  
-      "type" : "string",  
-      "description" : "Peso bruto rebocável permitido pelo veículo."  
+    "towableGrossWeight": {  
+      "type": "string",  
+      "description": "Peso bruto rebocável permitido pelo veículo."  
     },  
-    "co2Emission" : {  
-      "type" : "string",  
-      "description" : "Emissão de CO2 do veículo."  
+    "co2Emission": {  
+      "type": "string",  
+      "description": "Emissão de CO2 do veículo."  
     },  
-    "co2calculationMethod" : {  
-      "type" : "string",  
-      "description" : "Método utilizado para calcular as emissões de CO2."  
+    "co2calculationMethod": {  
+      "type": "string",  
+      "description": "Método utilizado para calcular as emissões de CO2."  
     },  
-    "wankleEngine" : {  
-      "type" : "string",  
-      "description" : "Indicação se o motor do veículo é do tipo Wankel."  
+    "wankleEngine": {  
+      "type": "string",  
+      "description": "Indicação se o motor do veículo é do tipo Wankel."  
     }  
   }  
 }
 ```
-```json ENG
+
+## English
+
+```json
 {
   "type": "object",
   "properties": {
