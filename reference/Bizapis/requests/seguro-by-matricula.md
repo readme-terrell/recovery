@@ -16,53 +16,53 @@ metadata:
 next:
   description: ''
 ---
-> 💻 <HTMLBlock>{`
-<h3 style="text-align: center;">DOWNLOAD PROJECT</h3>
-<ul>
-  <li><a href="https://we.tl/t-81vjiKA2se" target="_blank">Java</a></li>
-  <li><a href="https://we.tl/t-tp5A6oryZi">Python</a></li>
-  <li><a href="https://we.tl/t-cj2IyPalDn">C#</a></li>
-</ul>
-`}</HTMLBlock>
+# Download Project
 
-<HTMLBlock>{`
-<a href="https://www.bizapis.com/wp-content/uploads/2024/08/servico_seguro-by-matricula.mp4.mp4" target="_blank">To watch the video click here</a>
-`}</HTMLBlock>
+- [Java](https://we.tl/t-81vjiKA2se)
+- [Python](https://we.tl/t-tp5A6oryZi)
+- [C#](https://we.tl/t-cj2IyPalDn)
+
+[Watch the video](https://www.bizapis.com/wp-content/uploads/2024/08/servico_seguro-by-matricula.mp4.mp4)
 
 # JSON Schema API Response
 
-```json PT
+## Portuguese (PT)
+
+```json
 {
-  "type" : "object",
-  "properties" : {
-    "requestId" : {
-      "type" : "string",
-      "description" : "Identificador único do pedido"
+  "type": "object",
+  "properties": {
+    "requestId": {
+      "type": "string",
+      "description": "Identificador único do pedido"
     },
-    "licensePlate" : {
-      "type" : "string",
-      "description" : "Matrícula do veículo"
+    "licensePlate": {
+      "type": "string",
+      "description": "Matrícula do veículo"
     },
-    "entity" : {
-      "type" : "string",
-      "description" : "Seguradora"
+    "entity": {
+      "type": "string",
+      "description": "Seguradora"
     },
-    "startDate" : {
-      "type" : "string",
-      "description" : "Data de início do seguro"
+    "startDate": {
+      "type": "string",
+      "description": "Data de início do seguro"
     },
-    "endDate" : {
-      "type" : "string",
-      "description" : "Data de fim do seguro"
+    "endDate": {
+      "type": "string",
+      "description": "Data de fim do seguro"
     },
-    "policy" : {
-      "type" : "string",
-      "description" : "Número de apólice"
+    "policy": {
+      "type": "string",
+      "description": "Número de apólice"
     }
   }
 }
 ```
-```json ENG
+
+## English (ENG)
+
+```json
 {
   "type": "object",
   "properties": {
