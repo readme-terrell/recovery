@@ -15,19 +15,57 @@ metadata:
 next:
   description: ''
 ---
-> 💻 <HTMLBlock>{`
-> <h3  style={{ textAlign: "center" }}>DOWNLOAD PROJECT</h3>
-> <ul>
->   <li><a href="https://we.tl/t-fMY1oPTzwX">Java</a></li>
->   <li><a href="https://we.tl/t-3cU0hEbMDr">Python</a></li>
->   <li><a href="https://we.tl/t-9kd4abucY3">C#</a></li>
-> </ul>
-> {/* 
-> <a href="https://drive.google.com/uc?id=1MbJ3sWyhG8SqBhNYnmWcD9tcLvWGd2UK&export=download">
->   <button>Download project demo</button>
-> </a> */}
-> `}</HTMLBlock>
+# Download Project
 
-<HTMLBlock>{`
-<a href="https://www.bizapis.com/wp-content/uploads/2024/08/retrieve-persistent-data.mp4.mp4" target="_blank">To watch the video click here</a>
-`}</HTMLBlock>
+- [Java](https://we.tl/t-fMY1oPTzwX)
+- [Python](https://we.tl/t-3cU0hEbMDr)
+- [C#](https://we.tl/t-9kd4abucY3)
+
+[Watch the video](https://www.bizapis.com/wp-content/uploads/2024/08/retrieve-persistent-data.mp4.mp4)
+
+# JSON Schema API Response
+
+## Portuguese (PT)
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "requestId": {
+          "type": "string",
+          "description": "Identificador único do pedido"
+        }
+      }
+    },
+    "file": {
+      "type": "string",
+      "description": "Ficheiro PDF em base 64"
+    }
+  }
+}
+```
+
+## English (ENG)
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "requestId": {
+          "type": "string",
+          "description": "Unique request identifier"
+        }
+      }
+    },
+    "file": {
+      "type": "string",
+      "description": "Encoded base 64 file."
+    }
+  }
+}
