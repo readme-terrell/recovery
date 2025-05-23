@@ -13,35 +13,28 @@ metadata:
 next:
   description: ''
 ---
-> 💻 <HTMLBlock>{`
-> <h3 style={{ textAlign: "center" }}>DOWNLOAD PROJECT</h3>
-> <ul>
->   <li><a href="https://we.tl/t-3SOLdZPM9k">Java</a></li>
->   <li><a href="https://we.tl/t-bGFxk8ahA5">Python</a></li>
->   <li><a href="https://we.tl/t-RkPgchEPv7">C#</a></li>
-> </ul>
-> {/* 
-> <a href="https://drive.google.com/uc?id=1MbJ3sWyhG8SqBhNYnmWcD9tcLvWGd2UK&export=download">
->   <button>Download project demo</button>
-> </a> */}
-> `}</HTMLBlock>
+# Download Project
 
-<HTMLBlock>{`
-<a href="https://www.bizapis.com/wp-content/uploads/2024/08/irs-by-code.mp4.mp4" target="_blank">To watch the video click here</a>
-`}</HTMLBlock>
+- [Java](https://we.tl/t-3SOLdZPM9k)
+- [Python](https://we.tl/t-bGFxk8ahA5)
+- [C#](https://we.tl/t-RkPgchEPv7)
+
+[Watch the video](https://www.bizapis.com/wp-content/uploads/2024/08/irs-by-code.mp4.mp4)
 
 # JSON Schema API Response
 
-```json PT
+## Portuguese (PT)
+
+```json
 {
   "type": "object",
   "properties": {
     "data": {
       "type": "object",
       "properties": {
-        "requestId" : {
-          "type" : "string",
-          "description" : "Identificador único do pedido"
+        "requestId": {
+          "type": "string",
+          "description": "Identificador único do pedido"
         }
       }
     },
@@ -51,18 +44,20 @@ next:
     }
   }
 }
-
 ```
-```json ENG
+
+## English (ENG)
+
+```json
 {
   "type": "object",
   "properties": {
     "data": {
       "type": "object",
       "properties": {
-        "requestId" : {
-          "type" : "string",
-          "description" : "Unique request identifier"
+        "requestId": {
+          "type": "string",
+          "description": "Unique request identifier"
         }
       }
     },
@@ -72,5 +67,4 @@ next:
     }
   }
 }
-
 ```
