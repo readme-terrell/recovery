@@ -13,69 +13,65 @@ metadata:
 next:
   description: ''
 ---
-> 💻 <HTMLBlock>{`
-> <h3 style={{ textAlign: "center" }}>DOWNLOAD PROJECT</h3>
-> <ul>
->   <li><a href="https://we.tl/t-ltawfTIv5s">Java</a></li>
->   <li><a href="https://we.tl/t-Wza4cCzjuK">Python</a></li>
->   <li><a href="https://we.tl/t-4HmOfN9uKG">C#</a></li>
-> </ul>
-> {/* 
-> <a href="https://drive.google.com/uc?id=1MbJ3sWyhG8SqBhNYnmWcD9tcLvWGd2UK&export=download">
->   <button>Download project demo</button>
-> </a> */}
-> `}</HTMLBlock>
+# Download Project
 
-<HTMLBlock>{`
-<a href="https://www.bizapis.com/wp-content/uploads/2024/08/nifname.mp4.mp4" target="_blank">To watch the video click here</a>
-`}</HTMLBlock>
+- [Java](https://we.tl/t-ltawfTIv5s)
+- [Python](https://we.tl/t-Wza4cCzjuK)
+- [C#](https://we.tl/t-4HmOfN9uKG)
+
+[Watch the video](https://www.bizapis.com/wp-content/uploads/2024/08/nifname.mp4.mp4)
 
 # JSON Schema for API Response
 
-```json PT
+## Portuguese (PT)
+
+```json
 {
-  "type" : "object",
-  "properties" : {
-    "nif" : {
-      "type" : "string",
-      "description" : "Número Identificação Fiscal"
+  "type": "object",
+  "properties": {
+    "nif": {
+      "type": "string",
+      "description": "Número Identificação Fiscal"
     },
-    "name" : {
-      "type" : "string",
-      "description" : "Nome"
+    "name": {
+      "type": "string",
+      "description": "Nome"
     },
-    "cod_financas" : {
-      "type" : "string",
-      "description" : "Dados do Serviço Finanças - Código"
+    "cod_financas": {
+      "type": "string",
+      "description": "Dados do Serviço Finanças - Código"
     },
-    "desc_financas" : {
-      "type" : "string",
-      "description" : "Dados do Serviço Finanças - Descrição"
+    "desc_financas": {
+      "type": "string",
+      "description": "Dados do Serviço Finanças - Descrição"
     },
-    "act_css_iva" : {
-      "type" : "string",
-      "description" : "Dados de Atividade - Data de Cessação do Imposto sobre Valor Acrescentado (IVA)"
+    "act_css_iva": {
+      "type": "string",
+      "description": "Dados de Atividade - Data de Cessação do Imposto sobre Valor Acrescentado (IVA)"
     },
-    "act_css_irs" : {
-      "type" : "string",
-      "description" : "Dados de Atividade - Data de Cessação do Imposto sobre o Rendimento das Pessoas Singulares (IRS)"
+    "act_css_irs": {
+      "type": "string",
+      "description": "Dados de Atividade - Data de Cessação do Imposto sobre o Rendimento das Pessoas Singulares (IRS)"
     },
-    "inclusion_iva" : {
-      "type" : "string",
-      "description" : "Dados de Atividade - Enquadramento Imposto sobre Valor Acrescentado (IVA)"
+    "inclusion_iva": {
+      "type": "string",
+      "description": "Dados de Atividade - Enquadramento Imposto sobre Valor Acrescentado (IVA)"
     },
-    "situation" : {
-      "type" : "string",
-      "description" : "Dados de Atividade - Situação"
+    "situation": {
+      "type": "string",
+      "description": "Dados de Atividade - Situação"
     },
-    "activity_message" : {
-      "type" : "string",
-      "description" : "Mensagem para quando não existe atividade"
+    "activity_message": {
+      "type": "string",
+      "description": "Mensagem para quando não existe atividade"
     }
   }
 }
 ```
-```json ENG
+
+## English (ENG)
+
+```json
 {
   "type": "object",
   "properties": {
