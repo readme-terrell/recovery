@@ -13,20 +13,96 @@ metadata:
 next:
   description: ''
 ---
-> 💻 <HTMLBlock>{`
-> <h3 style={{ textAlign: "center" }}>DOWNLOAD PROJECT</h3>
-> <ul>
->   <li><a href="https://we.tl/t-8U051WQwfe">Java</a></li>
->   <li><a href="https://we.tl/t-ynSKuElrpE">Python</a></li>
->   <li><a href="https://we.tl/t-4SaCPBTr7A">C#</a></li>
-> </ul>
-> {/* 
-> <a href="https://drive.google.com/uc?id=1MbJ3sWyhG8SqBhNYnmWcD9tcLvWGd2UK&export=download">
->   <button>Download project demo</button>
-> </a>
-> */}
-> `}</HTMLBlock>
+# Download Project
 
-<HTMLBlock>{`
-<a href="https://www.bizapis.com/wp-content/uploads/2024/08/seervico_informacao_empresarial_simplificada.mp4.mp4" target="_blank">To watch the video click here</a>
-`}</HTMLBlock>
+- [Java](https://we.tl/t-8U051WQwfe)
+- [Python](https://we.tl/t-ynSKuElrpE)
+- [C#](https://we.tl/t-4SaCPBTr7A)
+
+[Watch the video](https://www.bizapis.com/wp-content/uploads/2024/08/seervico_informacao_empresarial_simplificada.mp4.mp4)
+
+# JSON Schema API Response
+
+## Portuguese (PT)
+
+```json
+{
+  "type" : "object",
+  "properties" : {
+    "RequestId" : {
+      "type" : "string",
+      "description" : "Identificador único do pedido."
+    },
+    "Date" : {
+      "type" : "string",
+      "description" : "Data da publicação do ato ou facto (formato: YYYY-MM-DD)."
+    },
+    "NIPC" : {
+      "type" : "string",
+      "description" : "Número de Identificação de Pessoa Coletiva (NIPC) da entidade."
+    },
+    "Entity" : {
+      "type" : "string",
+      "description" : "Nome da entidade associada."
+    },
+    "County" : {
+      "type" : "string",
+      "description" : "Concelho onde a entidade está localizada."
+    },
+    "Act/Fact" : {
+      "type" : "string",
+      "description" : "Descrição do ato ou facto publicado."
+    },
+    "Status" : {
+      "type" : "string",
+      "description" : "Estado atual da entidade."
+    },
+    "Code" : {
+      "type" : "string",
+      "description" : "Código associado ao tipo de Act/Fact."
+    }
+  }
+}
+```
+
+## English (ENG)
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "RequestId": {
+      "type": "string",
+      "description": "Unique identifier for the request."
+    },
+    "Date": {
+      "type": "string",
+      "description": "Date of the publication of the act or fact (format: YYYY-MM-DD)."
+    },
+    "NIPC": {
+      "type": "string",
+      "description": "Corporate Taxpayer Identification Number (NIPC) of the entity."
+    },
+    "Entity": {
+      "type": "string",
+      "description": "Name of the associated entity."
+    },
+    "County": {
+      "type": "string",
+      "description": "County where the entity is located."
+    },
+    "Act/Fact": {
+      "type": "string",
+      "description": "Description of the published act or fact."
+    },
+    "Status": {
+      "type": "string",
+      "description": "Current status of the entity."
+    },
+    "Code": {
+      "type": "string",
+      "description": "Code associated with the type of Act/Fact."
+    }
+  }
+}
+```
