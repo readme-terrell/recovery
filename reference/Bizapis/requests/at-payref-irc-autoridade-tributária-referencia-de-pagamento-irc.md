@@ -4,7 +4,7 @@ excerpt: Retrieve pay references for IRC
 api:
   file: bizapis.json
   operationId: at-payref-irc-autoridade-tributária-referencia-de-pagamento-irc
-hidden: true
+hidden: false
 ---
 # JSON Schema for API Response
 
