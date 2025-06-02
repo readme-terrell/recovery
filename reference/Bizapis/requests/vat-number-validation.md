@@ -8,7 +8,7 @@ api:
   file: bizapis.json
   operationId: vat-number-validation
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
