@@ -18,7 +18,7 @@ This page aims to provide guidance to facilitate the integration process of data
 
 ## Workflow
 
-<Image align="center" src="https://files.readme.io/18483c253cf636239919df848bf8fe287ac3c4aa85b7b4d2709396683c344c0a-RequestWorkflow.drawio_2.png" />
+<Image align="center" src="https://files.readme.io/efa70198c0c071c113489e5c0a7ec62cc02e35d973676f4e099857776e6e5cb6-RequestWorkflow.drawio.png" />
 
 ## Subscriptions (API Key)
 
