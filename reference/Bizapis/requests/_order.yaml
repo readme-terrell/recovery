@@ -7,6 +7,7 @@
 - at-iva-enquadramento-autoridade-tributária-enquadramento-do-iva
 - at-iva-dp-autoridade-tributária-iva-declarações-periódicas
 - at-payref-imi-autoridade-tributária-referencia-de-pagamento-imi
+- at-payref-irc-autoridade-tributária-referencia-de-pagamento-irc
 - at-pi-autoridade-tributária-posição-integrada
 - at-docs-caderneta-predial
 - ce-certificados-energéticos
@@ -30,4 +31,3 @@
 - vehicle-by-nif
 - vat-number-validation
 - lei
-- at-payref-irc-autoridade-tributária-referencia-de-pagamento-irc
