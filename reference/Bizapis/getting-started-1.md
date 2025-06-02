@@ -18,7 +18,7 @@ This page aims to provide guidance to facilitate the integration process of data
 
 ## Workflow
 
-![Bizapis WorkFlow](https://files.readme.io/27787ac-workflowBizapis.png)
+<Image align="center" src="https://files.readme.io/18483c253cf636239919df848bf8fe287ac3c4aa85b7b4d2709396683c344c0a-RequestWorkflow.drawio_2.png" />
 
 ## Subscriptions (API Key)
 
@@ -26,7 +26,7 @@ To make requests to the bizAPIs API, it is necessary for the developer to have a
 
 The subscription is responsible for identifying the user and persisting information about which services (endpoints) the developer has access to.
 
-Registration for each of the services is individual, and at this moment, the developer has to make a request to our team using this [contact form](https://www.bizapis.com/contact-sales/). 
+Registration for each of the services is individual, and at this moment, the developer has to make a request to our team using this [contact form](https://www.bizapis.com/contact-sales/).
 
 ## Mock data
 
@@ -48,18 +48,19 @@ Each API contains essential documentation that provides necessary information ab
 
 ![Postman URL](https://files.readme.io/7dc2c99-url_Postman.png)
 
-- Set up the URL:
+* Set up the URL:
   1. Select the POST method.
   2. The specific URL for each endpoint is provided in the documentation for each API. Copy the URL corresponding to the desired endpoint.
 
 ![URL Example](https://files.readme.io/1ff69f6-urlsublinhado.png)
 
 <br />
+
 <br />
 
 ![Authorization](https://files.readme.io/bf0819a-Authorization.png)
 
-- Set up Authorization:
+* Set up Authorization:
   1. Go to the "Authorization" tab in Postman.
   2. In the "Type" field, select "Bearer Token".
   3. Paste the API Key into the "Token" field.
@@ -67,11 +68,12 @@ Each API contains essential documentation that provides necessary information ab
 ![Authorization Example](https://files.readme.io/4b3c0d2-autorizaaosublinhada.png)
 
 <br />
+
 <br />
 
 ![Request Body](https://files.readme.io/0443e8c-body_Request.png)
 
-- Set up Request Body:
+* Set up Request Body:
   1. In Postman, select the "Body" tab
   2. Choose the "raw" option.
   3. Ensure the selected format is "JSON".
@@ -80,11 +82,12 @@ Each API contains essential documentation that provides necessary information ab
 ![Request Body Example](https://files.readme.io/96a09ab-requestbodysublinhado.png)
 
 <br />
+
 <br />
 
 ![Response](https://files.readme.io/32e43de-response.png)
 
-- Send the request:
+* Send the request:
   1. After setting up the URL, authorization, and request body, click the "Send" button to send the request to the API. By following these steps, you will be ready to start interacting with the API.
 
 ## HTTP Status Code
@@ -102,9 +105,9 @@ Each API contains essential documentation that provides necessary information ab
 
 For 200 HTTP Codes, in case of error, the response body contains the field '**messageStatusCode**'.
 
-This field is composed by the **service_code** + **bizapis_error_code**
+This field is composed by the **service\_code** + **bizapis\_error\_code**
 
-Ex: 001_011 corresponds to, error in service AT-Aggregator - Fail to login website Timeout
+Ex: 001\_011 corresponds to, error in service AT-Aggregator - Fail to login website Timeout
 
 ## Service "Names" Codes
 
