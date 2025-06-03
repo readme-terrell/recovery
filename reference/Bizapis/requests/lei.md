@@ -5,7 +5,7 @@ api:
   file: bizapis.json
   operationId: lei
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
