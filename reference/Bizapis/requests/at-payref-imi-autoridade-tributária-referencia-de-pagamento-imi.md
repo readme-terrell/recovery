@@ -5,7 +5,7 @@ api:
   file: bizapis.json
   operationId: at-payref-imi-autoridade-tributária-referencia-de-pagamento-imi
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: ''
   description: ''
