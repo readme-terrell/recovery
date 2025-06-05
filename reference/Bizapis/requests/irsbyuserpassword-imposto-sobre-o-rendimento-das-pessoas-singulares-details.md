@@ -15,8 +15,6 @@ next:
 ---
 # Download Project
 
-* [Java](https://we.tl/t-joAUO6NZlJ)
-* [Python](https://we.tl/t-RMtHpM3KKU)
-* [C#](https://we.tl/t-0rXaS2WgvY)
-
-[Watch the video](https://www.bizapis.com/wp-content/uploads/2024/08/servico-irs_by_user_password.mp4.mp4)
+* [Java](https://we.tl/t-i2uXcW3RSJ)
+* [Python](https://we.tl/t-6aDYiqD1G2)
+* [C#](https://we.tl/t-TaJQ6xfayh)
