@@ -6,6 +6,11 @@ api:
   operationId: at-payref-irc-autoridade-tributária-referencia-de-pagamento-irc
 hidden: true
 ---
+> ⚠️ Important Notice
+>
+> The "file" field may only be included in the response if the client holds a subscription that includes access to the associated file.\
+> If you wish to enable this feature in your plan, please contact our sales team for further details and subscription options.
+
 # JSON Schema for API Response
 
 ```json ENG
