@@ -506,7 +506,7 @@ next:
       "properties": {
         "nif": {
           "type": "string",
-          "description": "Tax Identification Number (TIN)"
+          "description": "Tax Identification Number (NIF)"
         },
         "name": {
           "type": "string",
@@ -531,7 +531,7 @@ next:
         },
         "relatedLoan": {
           "type": "array",
-          "description": "Summary list related to related loans",
+          "description": "Summary list about related loans",
           "items": {
             "type": "object",
             "properties": {
