@@ -25,7 +25,7 @@ next:
 
 ## Portuguese (PT)
 
-```json PT
+```json JSON
 {
   "type" : "object",
   "properties" : {
@@ -489,8 +489,6 @@ next:
   }
 }
 ```
-```Text ENG
-```
 
 ## English (ENG)
 
@@ -498,19 +496,464 @@ next:
 {
   "type": "object",
   "properties": {
-    "data": {
+    "requestId": {
+      "type": "string",
+      "description": "Unique identifier of the request"
+    },
+    "summary": {
       "type": "object",
+      "description": "Credit Responsibilities Summary",
       "properties": {
-        "requestId": {
+        "nif": {
           "type": "string",
-          "description": "Unique request identifier"
+          "description": "Tax Identification Number (TIN)"
+        },
+        "name": {
+          "type": "string",
+          "description": "Name of the holder"
+        },
+        "homeLoan": {
+          "type": "array",
+          "description": "Summary list related to home loans",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "description": "Type of credit (can be joint or individual)"
+              },
+              "amount": {
+                "type": "number",
+                "description": "Total credit amount"
+              }
+            }
+          }
+        },
+        "relatedLoan": {
+          "type": "array",
+          "description": "Summary list related to related loans",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "description": "Type of credit (can be joint or individual)"
+              },
+              "amount": {
+                "type": "number",
+                "description": "Total credit amount"
+              }
+            }
+          }
+        },
+        "personalLoan": {
+          "type": "array",
+          "description": "Summary list related to personal loans",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "description": "Type of credit (can be joint or individual)"
+              },
+              "amount": {
+                "type": "number",
+                "description": "Total credit amount"
+              }
+            }
+          }
+        },
+        "financialLeasing": {
+          "type": "array",
+          "description": "Summary list related to financial leasing",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "description": "Type of credit (can be joint or individual)"
+              },
+              "amount": {
+                "type": "number",
+                "description": "Total credit amount"
+              }
+            }
+          }
+        },
+        "carLoanExcludingFinancialLeasing": {
+          "type": "array",
+          "description": "Summary list related to car loans excluding financial leasing",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "description": "Type of credit (can be joint or individual)"
+              },
+              "amount": {
+                "type": "number",
+                "description": "Total credit amount"
+              }
+            }
+          }
+        },
+        "otherLoans": {
+          "type": "object",
+          "description": "Map of the summary related to other credits",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "description": "Type of credit (can be joint or individual)"
+                },
+                "amount": {
+                  "type": "number",
+                  "description": "Total credit amount"
+                }
+              }
+            }
+          }
+        },
+        "loanOverrun": {
+          "type": "array",
+          "description": "Summary list related to credit overrun",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "description": "Type of credit (can be joint or individual)"
+              },
+              "amount": {
+                "type": "number",
+                "description": "Total credit amount"
+              }
+            }
+          }
+        },
+        "overdraftFacility": {
+          "type": "array",
+          "description": "Summary list related to overdraft facility",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "description": "Type of credit (can be joint or individual)"
+              },
+              "amount": {
+                "type": "number",
+                "description": "Total credit amount"
+              }
+            }
+          }
+        },
+        "creditCard": {
+          "type": "array",
+          "description": "Summary list related to credit cards",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "description": "Type of credit (can be joint or individual)"
+              },
+              "amount": {
+                "type": "number",
+                "description": "Total credit amount"
+              }
+            }
+          }
+        },
+        "creditCardWithFreeFloat": {
+          "type": "array",
+          "description": "Summary list related to credit cards with free float period",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "description": "Type of credit (can be joint or individual)"
+              },
+              "amount": {
+                "type": "number",
+                "description": "Total credit amount"
+              }
+            }
+          }
+        },
+        "creditCardWithoutFreeFloat": {
+          "type": "array",
+          "description": "Summary list related to credit cards without free float period",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "description": "Type of credit (can be joint or individual)"
+              },
+              "amount": {
+                "type": "number",
+                "description": "Total credit amount"
+              }
+            }
+          }
+        },
+        "deferredDebitCard": {
+          "type": "array",
+          "description": "Summary list related to deferred debit cards",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "description": "Type of credit (can be joint or individual)"
+              },
+              "amount": {
+                "type": "number",
+                "description": "Total credit amount"
+              }
+            }
+          }
+        },
+        "revolvingCredit": {
+          "type": "array",
+          "description": "Summary list related to revolving credits",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "description": "Type of credit (can be joint or individual)"
+              },
+              "amount": {
+                "type": "number",
+                "description": "Total credit amount"
+              }
+            }
+          }
+        },
+        "nonRevolvingCredit": {
+          "type": "array",
+          "description": "Summary list related to non-revolving credits",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "description": "Type of credit (can be joint or individual)"
+              },
+              "amount": {
+                "type": "number",
+                "description": "Total credit amount"
+              }
+            }
+          }
+        },
+        "outstandingAmount": {
+          "type": "array",
+          "description": "Summary list related to outstanding amounts",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "description": "Type of credit (can be joint or individual)"
+              },
+              "amount": {
+                "type": "number",
+                "description": "Total credit amount"
+              },
+              "isOutstandingAmountFromCreditCard": {
+                "type": "boolean",
+                "description": "Indicates whether the outstanding amount is from a credit card"
+              }
+            }
+          }
         }
       }
     },
-    "file": {
-      "type": "string",
-      "description": "Encoded base 64 file."
+    "homeLoan": {
+      "type": "array",
+      "description": "List of home loans",
+      "items": {
+        "type": "object",
+        "properties": {
+          "startDate": {
+            "type": "string",
+            "description": "Start date of the loan"
+          },
+          "endDate": {
+            "type": "string",
+            "description": "End date of the loan"
+          },
+          "numberDebtors": {
+            "type": "integer",
+            "description": "Number of debtors in the contract"
+          },
+          "totalDebt": {
+            "type": "number",
+            "description": "Total debt"
+          },
+          "installment": {
+            "type": "number",
+            "description": "Installment amount"
+          }
+        }
+      }
+    },
+    "carLoan": {
+      "type": "array",
+      "description": "List of car loans",
+      "items": {
+        "type": "object",
+        "properties": {
+          "startDate": {
+            "type": "string",
+            "description": "Start date of the loan"
+          },
+          "endDate": {
+            "type": "string",
+            "description": "End date of the loan"
+          },
+          "numberDebtors": {
+            "type": "integer",
+            "description": "Number of debtors in the contract"
+          },
+          "totalDebt": {
+            "type": "number",
+            "description": "Total debt"
+          },
+          "installment": {
+            "type": "number",
+            "description": "Installment amount"
+          }
+        }
+      }
+    },
+    "financialLeasing": {
+      "type": "array",
+      "description": "List of financial leasing contracts",
+      "items": {
+        "type": "object",
+        "properties": {
+          "startDate": {
+            "type": "string",
+            "description": "Start date of the loan"
+          },
+          "endDate": {
+            "type": "string",
+            "description": "End date of the loan"
+          },
+          "numberDebtors": {
+            "type": "integer",
+            "description": "Number of debtors in the contract"
+          },
+          "totalDebt": {
+            "type": "number",
+            "description": "Total debt"
+          },
+          "installment": {
+            "type": "number",
+            "description": "Installment amount"
+          }
+        }
+      }
+    },
+    "otherLoans": {
+      "type": "object",
+      "description": "List of other loans",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "startDate": {
+              "type": "string",
+              "description": "Start date of the loan"
+            },
+            "endDate": {
+              "type": "string",
+              "description": "End date of the loan"
+            },
+            "numberDebtors": {
+              "type": "integer",
+              "description": "Number of debtors in the contract"
+            },
+            "totalDebt": {
+              "type": "number",
+              "description": "Total debt"
+            },
+            "installment": {
+              "type": "number",
+              "description": "Installment amount"
+            }
+          }
+        }
+      }
+    },
+    "personalLoan": {
+      "type": "array",
+      "description": "List of personal loans",
+      "items": {
+        "type": "object",
+        "properties": {
+          "startDate": {
+            "type": "string",
+            "description": "Start date of the loan"
+          },
+          "endDate": {
+            "type": "string",
+            "description": "End date of the loan"
+          },
+          "numberDebtors": {
+            "type": "integer",
+            "description": "Number of debtors in the contract"
+          },
+          "totalDebt": {
+            "type": "number",
+            "description": "Total debt"
+          },
+          "installment": {
+            "type": "number",
+            "description": "Installment amount"
+          }
+        }
+      }
+    },
+    "relatedLoan": {
+      "type": "array",
+      "description": "List of related loans",
+      "items": {
+        "type": "object",
+        "properties": {
+          "startDate": {
+            "type": "string",
+            "description": "Start date of the loan"
+          },
+          "endDate": {
+            "type": "string",
+            "description": "End date of the loan"
+          },
+          "numberDebtors": {
+            "type": "integer",
+            "description": "Number of debtors in the contract"
+          },
+          "totalDebt": {
+            "type": "number",
+            "description": "Total debt"
+          },
+          "installment": {
+            "type": "number",
+            "description": "Installment amount"
+          }
+        }
+      }
     }
   }
 }
+
 ```
