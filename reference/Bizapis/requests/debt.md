@@ -19,9 +19,9 @@ next:
 ---
 # Download Project
 
-- [Java](https://we.tl/t-LoKh0HSmDx)
-- [Python](https://we.tl/t-flFrxOTJLK)
-- [C#](https://we.tl/t-amS0lzmLaL)
+* [Java](https://we.tl/t-LoKh0HSmDx)
+* [Python](https://we.tl/t-flFrxOTJLK)
+* [C#](https://we.tl/t-amS0lzmLaL)
 
 [Watch the video](https://www.bizapis.com/wp-content/uploads/2024/08/servico_debt.mp4.mp4)
 
@@ -81,7 +81,7 @@ next:
     },
     "Last update": {
       "type": "string",
-      "description": "The date and time when the record was last updated (format: DD/MM/YYYY HH:mm)."
+      "description": "The date and time when the record was last updated (format: DD/MM/YYYY)."
     },
     "TierValueGreaterThan": {
       "type": "integer",
